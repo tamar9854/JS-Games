@@ -1,4 +1,4 @@
-# My HTML CSS Project
+# My JS Project
 
 Hi
 my name is Tamar
