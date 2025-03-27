@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries API</title> <link rel="stylesheet" href="./style/country.css">
+    <script src="./script/counriesAPI.js" defer></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <h1>Country Search Website</h1>
+   <div class="countrywrap">
+        <label for="text">Enter a country name:</label>
+        <input type="text" id="search" placeholder="enter a country name"/>
+        <input type="button" value="Click" id="btn" />
+   </div>
+      <div id="show">
+        <div class="imgwrap">
+          <h1 id="name"></h1>
+          <img class="imgF" src="#" alt="" />
+        </div>
+        <p id="capital"></p>
+        <p id="people"></p>
+        <p id="lan"></p>
+        <p id="errorMessage"></p>
+      </div>
+    </div>
+  </body>
+</html>

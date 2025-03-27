@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/weatherstyle.css" />
+    <script src="./script/Weather.js" defer></script>
+    <title>Weather Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>API Weather</h1>
+      <div class="form-control">
+        <br />
+        <label for="inputCity">Search city name:</label>
+        <input type="text" id="inputCity" />
+        <button>Send</button>
+      </div>
+
+      <div class="weatherInfo">
+        <h1 id="city"></h1>
+        <p id="temp"></p>
+        <img id="weatherIcon" />
+        <p id="decription"></p>
+        <p id="errorMessage"></p>
+      </div>
+    </div>
+  </body>
+</html>

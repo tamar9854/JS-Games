@@ -198,13 +198,15 @@ hr {
 .gallery-wrap {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 .card {
-  height: 70vh;
+  height: 77vh;
   background-color: #fff;
-  margin: 1.5rem;
-  width: 25vw;
+  margin: 0.5rem;
+  width: 30%;
   border-radius: 25px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -221,7 +223,7 @@ hr {
   outline: none;
   border-radius: 20px 20px 20px 20px;
   width: 12vw;
-  height: 7vh;
+  height: 9vh;
   font-family: Heebo;
   background-color: #1ae0ec;
   font-size: 1.1rem;
@@ -247,7 +249,6 @@ hr {
 }
 
 .card:hover {
-  /*          x   y   blur spread  */
   box-shadow: 1px 3px 2px 3px #777;
 }
 
@@ -261,7 +262,7 @@ hr {
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   transition-property: background-size;
   transition-duration: 1500ms;
   border-radius: 25px;
@@ -312,6 +313,17 @@ hr {
   display: flex;
   background-color: #3a3a3a;
   position: relative;
+}
+.form-error {
+  width: 100%;
+}
+.form-error_hide {
+  visibility: hidden;
+}
+.error-message {
+  text-align: center;
+  color: red;
+  font-weight: bold;
 }
 
 .contact-image {
@@ -420,6 +432,11 @@ hr {
   padding-right: 1rem;
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 35vw;
+  }
+}
 @media (max-width: 576px) {
   .hamburger {
     display: initial;
@@ -493,5 +510,8 @@ hr {
   .iconswrap {
     flex-wrap: wrap;
     justify-content: flex-start;
+  }
+  .copyright {
+    height: 8vh;
   }
 }

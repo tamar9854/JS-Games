@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/triviastyle.css" />
+    <script src="./script/trivia.js" defer></script>
+    <title>Trivia</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Trivia</h1>
+      <div id="questionCard">
+        <p id="question"></p>
+        <label for="ansA">
+          <input type="radio" name="answer" id="ansA" value="ansA" />
+          <span id="ansAText"></span>
+        </label>
+        <label for="ansB">
+          <input type="radio" name="answer" id="ansB" value="ansB" />
+          <span id="ansBText"></span>
+        </label>
+        <label for="ansC">
+          <input type="radio" name="answer" id="ansC" value="ansC" />
+          <span id="ansCText"></span>
+        </label>
+        <label for="ansD">
+          <input type="radio" name="answer" id="ansD" value="ansD" />
+          <span id="ansDText"></span> </label
+        ><br />
+        <p id="correct"></p>
+
+        <button id="submit">check</button><br />
+
+        <button id="reset">New Game</button>
+      </div>
+    </div>
+  </body>
+</html>

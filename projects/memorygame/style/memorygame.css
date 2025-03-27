@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("../images/bgc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapimg {
+  max-width: 86vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  place-items: center;
+}
+
+.disneyC {
+  max-height: 16vh;
+  width: 20vw;
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.message > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#btn {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 2rem;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  font-weight: bolder;
+}
+#btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-size: 100% 100%;
+  }
+
+  .message > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
