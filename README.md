@@ -2,5 +2,5 @@
 
 Hi
 my name is Tamar
-This is my project
+This is my JS projects
 I hope you like it
