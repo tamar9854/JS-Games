@@ -1,4 +1,3 @@
-const container = document.getElementById("container");
 const ansA = document.getElementById("ansA");
 const ansB = document.getElementById("ansB");
 const ansC = document.getElementById("ansC");

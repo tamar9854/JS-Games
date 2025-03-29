@@ -242,6 +242,7 @@ hr {
 .card > p {
   font-family: Heebo;
   text-align: center;
+  min-height: 15vh;
 }
 
 .card > img {
@@ -257,7 +258,13 @@ hr {
 .card > .card3_image,
 .card > .card4_image,
 .card > .card5_image,
-.card > .card6_image {
+.card > .card6_image,
+.card > .card7_image,
+.card > .card8_image,
+.card > .card9_image,
+.card > .card10_image,
+.card > .card11_image,
+.card > .card12_image {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
@@ -273,7 +280,13 @@ hr {
 .card3_image:hover,
 .card4_image:hover,
 .card5_image:hover,
-.card6_image:hover {
+.card6_image:hover
+  .card7_image:hover
+  .card8_image:hover
+  .card9_image:hover
+  .card10_image:hover
+  .card11_image:hover
+  .card12_image:hover {
   background-size: 150%;
   opacity: 0.8;
 }
@@ -305,6 +318,67 @@ hr {
 }
 
 .card > .card6_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+
+.card > .card7_image {
+  background-image: url("images/countriesApibgc.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+
+.card > .card7_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+
+.card > .card8_image {
+  background-image: url("images/memorygamebgc.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+
+.card > .card8_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+.card > .card9_image {
+  background-image: url("images/shoppingbcg.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+.card > .card9_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+
+.card > .card10_image {
+  background-image: url("images/starwarsbgc.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+.card > .card10_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+
+.card > .card11_image {
+  background-image: url("images/triviabgc.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+.card > .card11_image:hover {
+  background-size: 150% 135%;
+  opacity: 0.8;
+}
+
+.card > .card12_image {
+  background-image: url("images/weatherbgc.jpg");
+  background-size: 100% 85%;
+  transition: all 1500ms;
+}
+.card > .card12_image:hover {
   background-size: 150% 135%;
   opacity: 0.8;
 }
